@@ -1,0 +1,15 @@
+[project]
+name = "ft_package"
+version = "0.0.1"
+description = "A sample test package"
+readme = "README.md"
+authors = [
+  { name = "hozdemir" },
+  { email = "hozdemir@student.42istanbul.com.tr" },
+]
+license = "MIT"
+classifiers = []
+[project.urls]
+Homepage = "https://github.com/hozdemir/ft_package"
+[tool.setuptools]
+packages = ["ft_package"]
