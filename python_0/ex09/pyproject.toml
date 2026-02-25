@@ -10,6 +10,6 @@ authors = [
 license = "MIT"
 classifiers = []
 [project.urls]
-Homepage = "https://github.com/hozdemir/ft_package"
+Homepage = "https://github.com/Ifmai/42-Python-for-Data-Science-Piscine"
 [tool.setuptools]
 packages = ["ft_package"]
