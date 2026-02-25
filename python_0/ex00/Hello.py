@@ -3,7 +3,7 @@ ft_tuple = ("Hello", "toto!")
 ft_set = {"Hello", "tutu!"}
 ft_dict = {"Hello": "titi!"}
 
-#Your Code Here
+# Your Code Here
 
 ft_list[1] = "World!"
 ft_tuple = ("Hello", "Turkiye")

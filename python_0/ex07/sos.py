@@ -48,7 +48,7 @@ def encode_morse(text):
     Parameters:
         text (str): The text to be encoded. It should be alphanumeric.
     Returns:
-        str: The Morse code representation of the input text, 
+        str: The Morse code representation of the input text,
             with each character's Morse code separated by a space.
     """
     assert isinstance(text, str), "the arguments are bad"
@@ -62,9 +62,11 @@ def encode_morse(text):
 
 def main():
     """
-    Validate the command-line arguments and encode the input text into Morse code.
+    Validate the command-line arguments
+    and encode the input text into Morse code.
     The program expects exactly one argument (the text to be encoded).
-    If the argument is valid, it prints the Morse code representation of the text.
+    If the argument is valid, it prints the
+    Morse code representation of the text.
     If the argument is invalid, it prints an error message.
     """
 
@@ -79,7 +81,6 @@ def main():
         print("AssertionError:", e)
     except Exception as e:
         print("AssertionError:", e)
-
 
 
 if __name__ == "__main__":
