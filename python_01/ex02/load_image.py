@@ -29,5 +29,6 @@ def ft_load(path: str) -> np.array:
 def main():
     print(ft_load("landscape.jpg"))
 
+
 if __name__ == "__main__":
     main()
