@@ -27,11 +27,12 @@ def ft_load(path: str) -> np.array:
 
 
 def main():
-    print(ft_load("landscape.jpg"))
+    """Load animal.jpeg and print its pixels."""
+    try:
+        print(ft_load("animal.jpeg"))
+    except Exception as error:
+        print(f"Error: {error}")
+
 
 if __name__ == "__main__":
     main()
-
-
-
-    
