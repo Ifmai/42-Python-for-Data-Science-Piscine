@@ -1,0 +1,10 @@
+# Python >= 3.10 is required by the subject.
+#
+#   python3 -m venv venv
+#   source venv/bin/activate
+#   pip install -r requirements.txt
+
+numpy>=1.26
+pillow>=10.0
+matplotlib>=3.8
+flake8>=7.0
