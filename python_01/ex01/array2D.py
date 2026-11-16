@@ -21,7 +21,7 @@ def check_family(family: list) -> None:
     if len(set(len(row) for row in family)) > 1:
         raise ValueError("All rows must have the same length.")
     if np.array(family).ndim != 2:
-       raise ValueError("Array not 2D")
+        raise ValueError("Array not 2D")
 
 
 def check_index(start: int, end: int) -> None:
